@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <p>Radix a PaaS built on Kubernetes - Cool</p>
+      <p>Radix a PaaS built on Kubernetes - Cool.</p>
       <div className="App-description">
         <br />
         Radix is an application platform built to increase development speed by
