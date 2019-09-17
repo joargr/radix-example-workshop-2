@@ -1,7 +1,7 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: echo
+  name: echo3881
 spec:
   environments:
     - name: development
@@ -12,8 +12,8 @@ spec:
       src: ./www
       publicPort: http
       ports:
-       - name: http
-         port: 3000
+        - name: http
+          port: 3000
       environmentConfig:
         - environment: development
           monitoring: false
